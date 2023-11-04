@@ -1,0 +1,31 @@
+/*estilos generales*/
+body{
+        margin: 0; /*esto es para el margen*/
+        background-color: rgb(236, 230, 205);
+}
+
+header{
+    background-color: rgb(64, 85, 37) ;
+    color: aliceblue;
+    padding: 3rem 2rem;
+}
+
+#title{
+    font-size: 4rem;
+    text-align: center;
+}
+
+/* una manera de poner margen*/
+
+.container{
+    width:400px;
+    margin: 0 auto;
+}
+
+.container .razon{
+    background-color: rgb(155, 124, 141);
+    margin: 1rem 0;
+    border-radius: 10px;
+    padding: 0.25rem;
+
+}
