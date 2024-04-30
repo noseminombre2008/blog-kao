@@ -1,48 +1,48 @@
 /*estilos generales*/
 body{
-        margin: 0; /*esto es para el margen*/
-        background-color: rgb(236, 230, 205);
+    margin: 0; /*esto es para el margen*/
+    background-color: rgb(236, 230, 205);
 }
 
 header{
-    background-color: rgb(64, 85, 37) ;
-    color: aliceblue;
-    padding: 3rem 2rem;
+background-color: rgb(64, 85, 37) ;
+color: aliceblue;
+padding: 3rem 2rem;
 }
 
 #title{
-    font-size: 4rem;
-    text-align: center;
+font-size: 4rem;
+text-align: center;
 }
 
 /* una manera de poner margen*/
 
 .container{
-    width:400px;
-    margin: 0 auto;
+width:400px;
+margin: 0 auto;
 }
 
 .container .razon{
-    background-color: rgb(155, 124, 141);
-    margin: 1rem 0;
-    border-radius: 10px;
-    padding: 0.25rem 0;
-    transition: box-shadow 0.5s ease;
+background-color: rgb(155, 124, 141);
+margin: 1rem 0;
+border-radius: 10px;
+padding: 0.25rem 0;
+transition: box-shadow 0.5s ease;
 }
 
 
 section article h2, section article p{
-    margin: 1rem;
+margin: 1rem;
 }
 
 section article img{
-    width: 400px
+width: 400px
 }
 section article h2{
-    text-align: center;
+text-align: center;
 }
 
 .container .razon:hover{
-    box-shadow:  5px -1px 36px 2px rgba(115,90,195,0.49);
-    cursor: pointer;
+box-shadow:  5px -1px 36px 2px rgba(115,90,195,0.49);
+cursor: pointer;
 }
